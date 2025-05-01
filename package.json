@@ -1,0 +1,13 @@
+{
+  "name": "discord-status-extension",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "discord-protos": "github:discord-userdoccers/discord-protos"
+  },
+  "scripts": {
+    "build": "bun build.js"
+  }
+}
